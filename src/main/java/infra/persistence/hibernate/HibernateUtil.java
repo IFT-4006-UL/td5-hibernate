@@ -1,4 +1,4 @@
-package uspace.infra.persistence.hibernate;
+package infra.persistence.hibernate;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.Metadata;

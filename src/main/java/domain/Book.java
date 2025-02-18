@@ -1,4 +1,4 @@
-package uspace.domain;
+package domain;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package uspace.domain;
+package domain;
 
 public interface LibraryRepository {
     Library findByName(LibraryName name);

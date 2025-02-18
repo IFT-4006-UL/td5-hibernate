@@ -1,8 +1,8 @@
-package uspace.infra.persistence.hibernate;
+package infra.persistence.hibernate;
 
-import uspace.domain.Library;
-import uspace.domain.LibraryName;
-import uspace.domain.LibraryRepository;
+import domain.Library;
+import domain.LibraryName;
+import domain.LibraryRepository;
 
 public class LibraryRepositoryHibernate implements LibraryRepository {
     @Override

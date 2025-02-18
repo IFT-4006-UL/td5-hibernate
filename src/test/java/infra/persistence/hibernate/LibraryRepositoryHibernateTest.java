@@ -1,8 +1,8 @@
-package uspace.infra.persistence.hibernate;
+package infra.persistence.hibernate;
 
+import domain.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import uspace.domain.*;
 
 import java.util.List;
 import java.util.Map;
