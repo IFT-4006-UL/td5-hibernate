@@ -21,6 +21,8 @@ Les méthodes à implémenter:
 - `Library findByName(LibraryName name)`
 - `void saveOrUpdate(Library library)`
 
+Exécuter les tests pour valider votre implémentation.
+
 Le [guide d'astuces pour hibernate et h2](astuce-hibernate-h2.md) peut vous aider dans votre implémentation.
 
 _P.S. Le guide et les configurations présentes dans la base du TD vous sont aussi fournis pour le TP2!_
