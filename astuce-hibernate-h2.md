@@ -6,7 +6,6 @@ Ce guide met en lumière les étapes nécessaires pour utiliser Hibernate avec u
 
 - Un fichier `hibernate.cfg.xml` qui contient la configuration de Hibernate.
 - Les dépendances Maven nécessaires pour Hibernate et H2.
-- Les annotations nécessaires pour les entités déjà présentes dans le projet.
 - La classe `HibernateUtil` qui contient une méthode utilitaire permettant de créer une session Hibernate.
 
 ## Accès aux données
