@@ -127,11 +127,16 @@ Dans le fichier `hibernate.cfg.xml`, spécifiez l'URL de connexion comme suit:
 
 1. Dans la fenêtre "Database" de VSCode, cliquez sur le bouton "+" pour ajouter une nouvelle connexion.
 2. Sélectionnez "H2" comme type de base de données.
-3. Remplissez les champs suivants:
+3. Sélectionnez le Driver
+   1. Cliquez sur Driver: H2
+   2. Cliquez sur "+", puis "Provided Driver"
+   3. Sélectionnez la version spécifiée dans le pom.xml (1.4.200)
+   4. Le Driver sera téléchargé automatiquement si nécessaire
+4. Remplissez les champs suivants:
    - Hostname: localhost
    - Port: 9092
    - Database: td5-library
    - User: sa
    - Password: (laissez vide)
    - URL: jdbc:h2:tcp://localhost:9092/td5-library
-- Cliquez sur "Test Connection". SI tout est beau, APPLY et OK.
+5. Cliquez sur "Test Connection". SI tout est beau, APPLY et OK.
